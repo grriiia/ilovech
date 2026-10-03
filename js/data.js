@@ -13,21 +13,12 @@ const siteConfig = {
 };
 
 const memories = [
-  {
-    date: "2026-02-19",
-    title: "다시 시작",
-    category: "SPECIAL DAY",
-    description: "오랜 나의 꿈이 이루어진 날",
-    letter: "다시는 멀어지고 싶지 않아",
-    photos: [
-      { src: "images/2026-02-19/1.png", caption: "우리의 첫 번째 사진" }
-    ]
-  },
+
   {
     date: "2026-02-26",
     title: "휴민트",
     category: "Movie",
-    description: "우리의 처음♥",
+    description: "우리 처음 한 날♥",
     letter: "좋았어!!!",
     photos: [
       { src: "images/2026-02-26/260226.png", caption: "아이고 이뻐라" },
@@ -60,7 +51,7 @@ const memories = [
     title: "오이도 여행",
     category: "Trip",
     description: "오이도 여행",
-    letter: "이 날은 미안해",
+    letter: "이 때는 내가 큰 실수를 했어... 미안해",
     photos: [
       { src: "images/2026-03-28/260328ch.JPG", caption: "내 배경화면" },
       { src: "images/2026-03-28/260328wink.JPG", caption: "윙크채현" },
@@ -90,8 +81,35 @@ const memories = [
       { src: "images/2026-04-28/20260428ㅁㅌ.png", caption: "그래서 데려왔지" }
     ]
   },
+
+    {
+    date: "2026-05-08",
+    title: "순간포착",
+    category: "Date",
+    description: "일상 데이트",
+    letter: "채현이의 표정이 너무 귀여워",
+        photos: [
+      { src: "images/2026-05-08/260508괴롭히기.jpg", caption: "괴롭히기" },
+      { src: "images/2026-05-08/260508인생네컷.JPG", caption: "이것좀 뵈 너무 이뻐요" }
+  ]
+
+  },
+
   {
-    date: "2026-04-20",
+    date: "2026-05-12 ~ 2026-05-16",
+    title: "채현이네침입작전",
+    category: "Date",
+    description: "결혼 체험",
+    letter: "100일 동안 내 옆에 있어줘서 고마워. 100일 뒤에도, 1000일 뒤에도 같이 웃고 있자.",
+        photos: [
+      { src: "images/2026-05-08/260508괴롭히기.jpg", caption: "괴롭히기" },
+      { src: "images/2026-05-08/260508인생네컷.JPG", caption: "이것좀 뵈 너무 이뻐요" }
+  ]
+
+  },
+
+  {
+    date: "2026-05-29",
     title: "100일",
     category: "100 DAYS",
     description: "우리의 100번째 하루.",
@@ -128,4 +146,7 @@ const memories = [
 //     { src: "images/2026-05-01/01.jpg", caption: "사진 설명" },
 //     { src: "images/2026-05-01/02.jpg", caption: "사진 설명" }
 //   ]
+      // videos: [
+      //   { src: "images/2026-", caption: "어쩌고저쩌고"}
+      // ]
 // }
