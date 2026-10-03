@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory ♥</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="memory-page">
+  <div id="lightbox">
+
+    <!-- 닫기 -->
+    <button id="lightboxClose" class="lightbox-close">
+        ×
+    </button>
+
+    <!-- 이전 사진 -->
+    <button id="lightboxPrev" class="lightbox-nav lightbox-prev">
+        ‹
+    </button>
+
+    <!-- 사진 영역 -->
+    <div class="lightbox-content">
+
+        <img
+            id="lightboxImage"
+            src=""
+            alt="확대된 사진"
+        >
+
+        <div id="lightboxCaption"></div>
+
+    </div>
+
+    <!-- 다음 사진 -->
+    <button id="lightboxNext" class="lightbox-nav lightbox-next">
+        ›
+    </button>
+
+    <!-- 전체화면 -->
+    <button id="lightboxFullscreen" class="lightbox-fullscreen">
+        ⛶
+    </button>
+
+</div>
+
+  <main>
+    <header class="memory-header">
+      <a class="back-link" href="index.html">← OUR MEMORY</a>
+      <div class="memory-date" id="memoryDate"></div>
+    </header>
+
+    <section class="memory-hero">
+      <p class="eyebrow" id="memoryCategory"></p>
+      <h1 id="memoryTitle"></h1>
+      <p id="memoryDescription"></p>
+    </section>
+
+    <section class="photo-section">
+      <div class="photo-grid" id="photoGrid"></div>
+      <div class="empty-state" id="emptyState">
+        <div>♡</div>
+        <p>아직 이 날의 사진이 없어요.</p>
+        <small>images 폴더에 사진을 넣어주세요.</small>
+      </div>
+    </section>
+
+    <section class="letter" id="letterSection">
+      <div class="letter-mark">“</div>
+      <p id="memoryLetter"></p>
+      <div class="letter-heart">♥</div>
+    </section>
+
+    <footer>
+      <span>One day, one memory.</span>
+      <span>♥</span>
+    </footer>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/memory.js"></script>
+</body>
+</html>

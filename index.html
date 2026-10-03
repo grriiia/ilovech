@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>규현♥채현</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true"></div>
+
+  <main class="home">
+    <section class="hero">
+      <p class="eyebrow">OUR LITTLE ARCHIVE</p>
+      <h1>Our<br><span>Memory</span></h1>
+      <p class="intro">우리 둘만의 소중한 순간들을<br>하나씩 꺼내보는 작은 앨범</p>
+      <div class="relationship">
+        <span id="startDateText">2026.02.19</span>
+        <span class="heart">♥</span>
+        <span id="todayText"></span>
+      </div>
+      <p class="days" id="daysTogether"></p>
+    </section>
+
+    <section class="memories-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">MEMORIES</p>
+          <h2>우리의 순간들</h2>
+        </div>
+        <p class="hint">카드를 눌러 추억을 열어보세요</p>
+      </div>
+      <div id="memoryGrid" class="memory-grid"></div>
+    </section>
+
+    <footer>
+      <span>Made with love</span>
+      <span>♥</span>
+    </footer>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
