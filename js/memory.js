@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.title = `${memory.title} ♥ Our Memory`;
 
   document.getElementById("memoryDate").textContent =
-    formatDate(parseLocalDate(memory.date));
+    formatMemoryDate(memory.date);
 
   document.getElementById("memoryCategory").textContent = memory.category;
   document.getElementById("memoryTitle").textContent = memory.title;
@@ -130,6 +130,19 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+  function formatMemoryDate(value) {
+  if (value.includes("~")) {
+    const [start, end] = value.split("~");
+
+    const startDate = parseLocalDate(start.trim());
+    const endDate = parseLocalDate(end.trim());
+
+    return `${formatDate(startDate)} ~ ${formatDate(endDate)}`;
+  }
+
+  return formatDate(parseLocalDate(value));
+}
 
 
 // ==============================

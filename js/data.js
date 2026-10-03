@@ -82,7 +82,7 @@ const memories = [
     ]
   },
 
-    {
+{
     date: "2026-05-08",
     title: "순간포착",
     category: "Date",
@@ -95,25 +95,55 @@ const memories = [
 
   },
 
+
+
   {
-    date: "2026-05-12 ~ 2026-05-16",
+    date: "2026-05-12~2026-05-16",
     title: "채현이네침입작전",
     category: "Date",
     description: "결혼 체험",
-    letter: "100일 동안 내 옆에 있어줘서 고마워. 100일 뒤에도, 1000일 뒤에도 같이 웃고 있자.",
+    letter: "채현이네 집에서 4일간 결혼 체험 너무 행복했어 같이 있느라 시간 가는 줄 모르고 사진을 잘 안찍었네 음식사진 밖에 없어서 아쉽다... 엄청 행복하고 재밌었는데",
         photos: [
-      { src: "images/2026-05-08/260508괴롭히기.jpg", caption: "괴롭히기" },
-      { src: "images/2026-05-08/260508인생네컷.JPG", caption: "이것좀 뵈 너무 이뻐요" }
+      { src: "images/260512~260516/1.jpg", caption: "호기롭게 출발해서" },
+      { src: "images/260512~260516/2.jpg", caption: "이것도 먹구" },
+      { src: "images/260512~260516/4.jpg", caption: "다음날엔 성신가서" },
+      { src: "images/260512~260516/3.jpg", caption: "이것도 먹구" },
+      { src: "images/260512~260516/5.jpg", caption: "채현이가 해준 냉모밀과 채덩이" },
+      { src: "images/260512~260516/6.jpg", caption: "그리고 회" },
+      { src: "images/260512~260516/7.jpg", caption: "그리고 아구찜" },
+      { src: "images/260512~260516/8.jpg", caption: "그리고 먹어보고 싶었던 우동" },
   ]
 
-  },
+
+
+   },
+
+      {
+    date: "2026-05-18",
+    title: "나 이때 좀 잘생긴듯",
+    category: "Date",
+    description: "일상 데이트",
+    letter: "나 이때 좀 잘생겼지 않아?",
+    photos: [
+     { src: "images/2026-05-18/1.jpg", caption: "이 날 찍은 사진 다 마음에 들어" },
+     { src: "images/2026-05-18/2.jpg", caption: "나 이거 좀 잘생긴거 같아" },
+   ]
+   
+},
+
 
   {
     date: "2026-05-29",
     title: "100일",
     category: "100 DAYS",
-    description: "우리의 100번째 하루.",
-    letter: "100일 동안 내 옆에 있어줘서 고마워. 100일 뒤에도, 1000일 뒤에도 같이 웃고 있자.",
+    description: "우리의 100번째 하루",
+    letter: "내 옆에 있어줘서 고마워. 100일 뒤에도, 1000일 뒤에도, 10년 뒤에도 같이 웃고 있자.",
+    photos: [
+      {src: "images/2026-05-29/1.jpg", caption: "채현이가 만들어준 도시락"},
+      {src: "images/2026-05-29/2.jpg", caption: "채현이가 만들어준 도시락2"},
+      {src: "images/2026-05-29/3.jpg", caption: "귀여운 채현이"},
+
+    ]
 
   },
 

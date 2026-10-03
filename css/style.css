@@ -375,32 +375,63 @@ footer {
   font-size: 11px;
 }
 
+/* ========================================
+   MEMORY MESSAGE
+======================================== */
+
 .letter {
-  max-width: 680px;
-  margin: 110px auto 80px;
-  padding: 60px 50px;
-  text-align: center;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
+    position: relative;
+
+    max-width: 680px;
+
+    margin: 110px auto 80px;
+
+    padding: 60px 50px;
+
+    min-height: 140px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
 }
 
-.letter-mark {
-  color: var(--accent);
-  font-family: var(--serif);
-  font-size: 65px;
-  line-height: .5;
+
+/* 왼쪽 위 작은 설명 */
+
+.letter-label {
+    position: absolute;
+
+    top: 18px;
+    left: 20px;
+
+    color: rgba(120, 110, 106, 0.55);
+
+    font-family: var(--sans);
+
+    font-size: 10px;
+    font-weight: 400;
+
+    letter-spacing: .08em;
 }
+
+
+/* 실제 메시지 */
 
 .letter p {
-  margin: 25px 0;
-  color: #756b68;
-  font-family: var(--serif);
-  font-size: 22px;
-  line-height: 1.8;
-}
+    margin: 0;
 
-.letter-heart {
-  color: var(--accent);
+    color: #756b68;
+
+    font-family: var(--serif);
+
+    font-size: 22px;
+
+    line-height: 1.8;
 }
 
 .lightbox {
@@ -539,16 +570,21 @@ footer {
 
   .letter {
     margin: 70px auto 50px;
-    padding: 45px 20px;
-  }
+    padding: 50px 20px 40px;
 
-  .letter p {
+    min-height: 120px;
+}
+
+.letter-label {
+    top: 15px;
+    left: 15px;
+
+    font-size: 9px;
+}
+
+.letter p {
     font-size: 18px;
-  }
-
-  .lightbox {
-    padding: 30px 15px;
-  }
+}
 }
 
 /* =========================
